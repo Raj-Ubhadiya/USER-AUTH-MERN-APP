@@ -1,0 +1,41 @@
+.registerForm{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* padding: 10px; */
+  border-radius: 2rem;
+  background-attachment:scroll;
+  display: flex;
+  flex-direction:column ;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(59, 45, 45);
+  color: rgb(64, 162, 162);
+  width: 25rem;
+  height: 25rem;
+}
+
+.formContainer{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   /* width: 100px;  */
+
+}
+
+.formContainer .inputFeild{
+    width: 20rem;
+}
+.buttons{
+    display: flex;
+}
+
+.registerSubmitbtn{
+    width: 5rem;
+    height: 2rem;
+    border-radius: 2px;
+    background-color:rgb(64, 162, 162);;
+}
